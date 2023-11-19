@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+
+body {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    background-image: url(https://th.bing.com/th/id/R.1d99ea31357ebe08cd036d52e6b17d85?rik=yvFQQwisFAmDIA&pid=ImgRaw&r=0);
+    background-size: 100%;
+    
+    
+    
+    
+}
+
+.container {
+    border-radius: 10px;
+    border-color: #48dbfb;
+    border-style: groove;
+    width: 20vw;
+    height: 35vh;
+    background-color: #0d0d0d;
+        display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 10px 10px;
+    align-items: center;
+    
+}
+
+.input {
+       padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: aliceblue;
+    background-color: #0d0d0d;
+}
+
+button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    border-radius: 5px;
+    width: 50%;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    background-color: #0d0d0d;
+}
+
+button:hover {
+    color: #48dbfb;
+}
+
+.final {
+    
+    margin-top: 1350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    width: 500px;
+    margin-left: 250px;
+    color: black;
+    
+    
+    
+}
+
+h1 {
+    background-color: #0d0d0d;
+}
+
+label {
+    background-color: #0d0d0d;
+}
+
+#resultado {
+    background-color: #0d0d0d;
+    
+}
+    
+    
+    
